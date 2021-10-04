@@ -41,6 +41,7 @@ class PW_Cleaner {
 			// remove_meta_box('dashboard_right_now', 'dashboard', 'normal'); // Removes the 'At a Glance' widget
 			remove_meta_box( 'wpseo-dashboard-overview', 'dashboard', 'side' ); // Removes Yoast Dashboard
 			remove_meta_box( 'dashboard_rediscache', 'dashboard', 'normal' ); // Removes Yoast Dashboard
+			remove_meta_box( 'e-dashboard-overview', 'dashboard', 'normal'); // Removes Elementor Dashboard
 		} );
 	}
 
